@@ -1,4 +1,4 @@
-CC=gcc
+CC=mipsel-buildroot-linux-gnu-gcc
 CFLAGS=-I ./ -Wall -Werror
 LDFLAGS=-static
 OBJS=main.o ssd1306.o linux_i2c.o
